@@ -17,7 +17,7 @@ $padding-sp: 20px;
 // フォント設定
 ////////////////////
 
-$base-font-family: "";
+$base-font-family: "'Noto Sans JP', sans-serif";
 $second-font-family: "";
 // ※検証ツールでしっかり反映されているか確認する
 
@@ -80,6 +80,7 @@ $mediaquerys: (
 //768px以上を表示
 .u-desktop {
   display: none;
+
   @include mq("md") {
     display: block;
   }
